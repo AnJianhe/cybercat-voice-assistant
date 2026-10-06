@@ -1,0 +1,42 @@
+.pio/
+build/
+sdkconfig
+sdkconfig.old
+managed_components/
+dependencies.lock
+.vscode/
+youdao_secrets.h
+
+# Local caches, generated builds, and distributable binaries
+.platformio/
+__pycache__/
+**/__pycache__/
+build*/
+**/build*/
+dist/
+*.exe
+*.bin
+*.elf
+*.map
+*.o
+*.py[cod]
+
+# Logs and captured conversation/audio data
+*.log
+*.log.*
+*.jsonl
+*.wav
+*.pcm
+*.mp3
+diagnostics/
+
+# Machine-specific verification notes may contain serial ports, IPs, and log excerpts
+docs/20261002*.md
+
+# Credentials and machine-local settings
+.env
+.env.*
+*.env
+master_s3/sdkconfig
+master_s3/main/app_config.h
+master_s3/main/youdao_secrets.h
